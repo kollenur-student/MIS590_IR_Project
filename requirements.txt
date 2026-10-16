@@ -13,6 +13,7 @@ tzdata==2024.2
 
 # Data collection
 requests==2.32.3
+certifi==2026.07.22          # CA bundle; used for the CWA SSL fix (Python 3.13)
 python-dotenv==1.0.1
 
 # Retrieval and query understanding

@@ -1,0 +1,30 @@
+phrase,regions,source
+taiwan,all,DESIGN CHOICE: the whole island means no location filter
+anywhere,all,DESIGN CHOICE: no location filter
+northern taiwan,north;northeast,"Four-region scheme (National Development Council): Northern Taiwan = Taipei, New Taipei, Keelung, Taoyuan, Hsinchu, Yilan (https://en.wikipedia.org/wiki/Regions_of_Taiwan)"
+northern,north;northeast,Same as northern taiwan (https://en.wikipedia.org/wiki/Regions_of_Taiwan)
+north,north;northeast,Same as northern taiwan (https://en.wikipedia.org/wiki/Regions_of_Taiwan)
+up north,north;northeast,Same as northern taiwan (https://en.wikipedia.org/wiki/Regions_of_Taiwan)
+north coast,north,"DESIGN CHOICE: the northern coastline (Taipei, New Taipei, Keelung, Taoyuan, Hsinchu) without Yilan, which faces east"
+northeast,northeast,"DESIGN CHOICE: Yilan is the only county that is both Northern Taiwan (four-region scheme) and Eastern Taiwan (two-region scheme), https://en.wikipedia.org/wiki/Regions_of_Taiwan"
+north east,northeast,Same as northeast
+northeast coast,northeast,Same as northeast
+eastern taiwan,east;northeast,"Two-region scheme: Eastern Taiwan = Yilan, Hualien, Taitung, east of the Central Mountain Range (https://en.wikipedia.org/wiki/Regions_of_Taiwan)"
+eastern,east;northeast,Same as eastern taiwan (https://en.wikipedia.org/wiki/Regions_of_Taiwan)
+east,east;northeast,Same as eastern taiwan (https://en.wikipedia.org/wiki/Regions_of_Taiwan)
+east coast,east;northeast,Same as eastern taiwan (https://en.wikipedia.org/wiki/Regions_of_Taiwan)
+central taiwan,west,"Four-region scheme: Central Taiwan = Miaoli, Taichung, Changhua, Nantou, Yunlin (https://en.wikipedia.org/wiki/Regions_of_Taiwan); our 'west' region holds its coastal counties"
+central,west,Same as central taiwan (https://en.wikipedia.org/wiki/Regions_of_Taiwan)
+western taiwan,north;west;southwest;south,"Two-region scheme: Western Taiwan = all divisions from Taipei to Pingtung west of the Central Mountain Range (https://en.wikipedia.org/wiki/Regions_of_Taiwan)"
+western,north;west;southwest;south,Same as western taiwan (https://en.wikipedia.org/wiki/Regions_of_Taiwan)
+west,north;west;southwest;south,Same as western taiwan (https://en.wikipedia.org/wiki/Regions_of_Taiwan)
+west coast,north;west;southwest;south,Same as western taiwan (https://en.wikipedia.org/wiki/Regions_of_Taiwan)
+southern taiwan,south;southwest;islands,"Four-region scheme: Southern Taiwan = Chiayi, Tainan, Kaohsiung, Pingtung, Penghu (https://en.wikipedia.org/wiki/Regions_of_Taiwan)"
+southern,south;southwest;islands,Same as southern taiwan (https://en.wikipedia.org/wiki/Regions_of_Taiwan)
+south,south;southwest;islands,Same as southern taiwan (https://en.wikipedia.org/wiki/Regions_of_Taiwan)
+down south,south;southwest;islands,Same as southern taiwan (https://en.wikipedia.org/wiki/Regions_of_Taiwan)
+south coast,south,"DESIGN CHOICE: the Hengchun Peninsula (Pingtung), the only south-facing coastline"
+southwest,southwest,"DESIGN CHOICE: the west-facing coast of Southern Taiwan (Chiayi, Tainan, Kaohsiung)"
+south west,southwest,Same as southwest
+islands,islands,"Outlying Islands (Kinmen, Matsu) and Penghu, plus the islets Green Island and Orchid Island (https://en.wikipedia.org/wiki/Regions_of_Taiwan)"
+outlying islands,islands,Same as islands (https://en.wikipedia.org/wiki/Regions_of_Taiwan)

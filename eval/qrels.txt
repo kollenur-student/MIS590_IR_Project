@@ -1,0 +1,8 @@
+# Relevance judgments in TREC qrels format - made by the team (see eval/RELEVANCE_GUIDELINES.md).
+# One judgment per line, space-separated:  qid 0 spot_id grade
+#   qid     = query ID from eval/queries.tsv (e.g. Q01)
+#   0       = unused TREC field, always 0
+#   spot_id = spot ID from data/spots/spots.csv (e.g. CIJIN_BEACH)
+#   grade   = 0, 1, 2 or 3
+# Example (delete the leading "# " to use):  # Q01 0 CIJIN_BEACH 2
+# Lines starting with # are ignored. Spots that are not judged count as not relevant.

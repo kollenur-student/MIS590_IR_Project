@@ -1,0 +1,5 @@
+# Test collection queries - written by the team (see eval/RELEVANCE_GUIDELINES.md, section 1).
+# Tab-separated. One query per line below the header. Lines starting with # are ignored.
+# qid: Q01, Q02, ...   snapshot_date: YYYY-MM-DD (must exist in data/snapshots/)
+# query_type: location | skill | time | attribute | vague | mixed   split: dev (~15) | test (~35)
+qid	query	snapshot_date	query_type	split

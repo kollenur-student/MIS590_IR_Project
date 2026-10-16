@@ -1,0 +1,4 @@
+# Optional: dense (embedding) retrieval for the hybrid system variant.
+# Installs PyTorch (CPU) and downloads the embedding model (~130 MB) on first use.
+-r requirements.txt
+sentence-transformers==3.3.1

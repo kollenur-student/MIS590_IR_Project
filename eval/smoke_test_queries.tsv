@@ -1,0 +1,7 @@
+# SMOKE TEST ONLY - 5 made-up queries to check that 05_evaluation runs. Not part of the real test collection.
+qid	query	snapshot_date	query_type	split
+S1	beginner-friendly beach break near Yilan this weekend	latest	mixed	test
+S2	uncrowded reef break on the east coast tomorrow morning	latest	attribute	test
+S3	where are the best waves this weekend	latest	vague	test
+S4	point break with board rental near Kenting	latest	location	test
+S5	glassy waves for a newbie tomorrow	latest	skill	dev

@@ -1,0 +1,1297 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_dedd283a25088e20946d1466c193f428 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_dedd283a25088e20946d1466c193f428" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_dedd283a25088e20946d1466c193f428 = L.map(
+                "map_dedd283a25088e20946d1466c193f428",
+                {
+                    center: [23.7, 121.0],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 7,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_1ca58587317bd072fa59e3b20db3505c = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_1ca58587317bd072fa59e3b20db3505c.addTo(map_dedd283a25088e20946d1466c193f428);
+        
+    
+            var circle_marker_bfb0de2b61544a118207d875580f7dcd = L.circleMarker(
+                [24.872, 121.843],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_dedd283a25088e20946d1466c193f428);
+        
+    
+        var popup_db046a418cee81f0835826e5c36cccc1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_272c20842c2658f41db76acf8d452f22 = $(`<div id="html_272c20842c2658f41db76acf8d452f22" style="width: 100.0%; height: 100.0%;"><b>Wai'ao Beach</b><br>northeast · beach · faces 98°<br>beginner, intermediate, advanced</div>`)[0];
+                popup_db046a418cee81f0835826e5c36cccc1.setContent(html_272c20842c2658f41db76acf8d452f22);
+            
+        
+
+        circle_marker_bfb0de2b61544a118207d875580f7dcd.bindPopup(popup_db046a418cee81f0835826e5c36cccc1)
+        ;
+
+        
+    
+    
+            circle_marker_bfb0de2b61544a118207d875580f7dcd.bindTooltip(
+                `<div>
+                     Wai'ao Beach
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_0d33cc9ddf2226253a09abf87d6a5f1f = L.polyline(
+                [[24.872, 121.843], [24.860866151923194, 121.92222144549933]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_dedd283a25088e20946d1466c193f428);
+        
+    
+            var circle_marker_f4fc3c46f73989ebae3c9ce61aa88bb4 = L.circleMarker(
+                [22.955, 121.293],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_dedd283a25088e20946d1466c193f428);
+        
+    
+        var popup_cd48c69945bb0c261d26030af8b08091 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b29ad7c673fbf626e1a44872602b6326 = $(`<div id="html_b29ad7c673fbf626e1a44872602b6326" style="width: 100.0%; height: 100.0%;"><b>Jinzun Harbor</b><br>east · point · faces 135°<br>intermediate, advanced</div>`)[0];
+                popup_cd48c69945bb0c261d26030af8b08091.setContent(html_b29ad7c673fbf626e1a44872602b6326);
+            
+        
+
+        circle_marker_f4fc3c46f73989ebae3c9ce61aa88bb4.bindPopup(popup_cd48c69945bb0c261d26030af8b08091)
+        ;
+
+        
+    
+    
+            circle_marker_f4fc3c46f73989ebae3c9ce61aa88bb4.bindTooltip(
+                `<div>
+                     Jinzun Harbor
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_703868d6bdfe18ce05796478ac4637a3 = L.polyline(
+                [[22.955, 121.293], [22.898431457505076, 121.34956854249494]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_dedd283a25088e20946d1466c193f428);
+        
+    
+            var circle_marker_74a92d185c957c2fd642a20161ecab48 = L.circleMarker(
+                [21.988, 120.849],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_dedd283a25088e20946d1466c193f428);
+        
+    
+        var popup_9f663eb650f43db0272e8bdf73d9b61e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3a9a7e3136ae9e4418c24b4881a38b84 = $(`<div id="html_3a9a7e3136ae9e4418c24b4881a38b84" style="width: 100.0%; height: 100.0%;"><b>Jialeshuei</b><br>south · beach · faces 148°<br>beginner, intermediate, advanced</div>`)[0];
+                popup_9f663eb650f43db0272e8bdf73d9b61e.setContent(html_3a9a7e3136ae9e4418c24b4881a38b84);
+            
+        
+
+        circle_marker_74a92d185c957c2fd642a20161ecab48.bindPopup(popup_9f663eb650f43db0272e8bdf73d9b61e)
+        ;
+
+        
+    
+    
+            circle_marker_74a92d185c957c2fd642a20161ecab48.bindTooltip(
+                `<div>
+                     Jialeshuei
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_1879b183fe6c01270ff6d552ead4dfda = L.polyline(
+                [[21.988, 120.849], [21.920156152307484, 120.89139354113865]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_dedd283a25088e20946d1466c193f428);
+        
+    
+            var circle_marker_cc094c1310a96b4035f9db4fb7cdb584 = L.circleMarker(
+                [22.611, 120.265],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_dedd283a25088e20946d1466c193f428);
+        
+    
+        var popup_a534705cd152bb8ac2da0ebfac23bbd8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7128f252ce08398d6bf2162363e2f252 = $(`<div id="html_7128f252ce08398d6bf2162363e2f252" style="width: 100.0%; height: 100.0%;"><b>Cijin Beach</b><br>southwest · beach · faces 211°<br>beginner, intermediate, advanced</div>`)[0];
+                popup_a534705cd152bb8ac2da0ebfac23bbd8.setContent(html_7128f252ce08398d6bf2162363e2f252);
+            
+        
+
+        circle_marker_cc094c1310a96b4035f9db4fb7cdb584.bindPopup(popup_a534705cd152bb8ac2da0ebfac23bbd8)
+        ;
+
+        
+    
+    
+            circle_marker_cc094c1310a96b4035f9db4fb7cdb584.bindTooltip(
+                `<div>
+                     Cijin Beach
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_ba8bcddc13181200c98ff86e84f72838 = L.polyline(
+                [[22.611, 120.265], [22.542426615943832, 120.2237969540072]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_dedd283a25088e20946d1466c193f428);
+        
+    
+            var circle_marker_9a5a771b923efa4041cdb71020b55a31 = L.circleMarker(
+                [25.284306, 121.520582],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_dedd283a25088e20946d1466c193f428);
+        
+    
+        var popup_224dfdd23212aa7c64fda1b9fb0d8681 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_48c33119ebfac428104783ab27dd497c = $(`<div id="html_48c33119ebfac428104783ab27dd497c" style="width: 100.0%; height: 100.0%;"><b>Baishawan</b><br>north · beach · faces 0°<br>beginner, intermediate, advanced</div>`)[0];
+                popup_224dfdd23212aa7c64fda1b9fb0d8681.setContent(html_48c33119ebfac428104783ab27dd497c);
+            
+        
+
+        circle_marker_9a5a771b923efa4041cdb71020b55a31.bindPopup(popup_224dfdd23212aa7c64fda1b9fb0d8681)
+        ;
+
+        
+    
+    
+            circle_marker_9a5a771b923efa4041cdb71020b55a31.bindTooltip(
+                `<div>
+                     Baishawan
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_42a9d385cd2ca821720d11ea6bc7701b = L.polyline(
+                [[25.284306, 121.520582], [25.364306, 121.520582]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_dedd283a25088e20946d1466c193f428);
+        
+    
+            var circle_marker_310a71c40e80bac612dedf97511f3473 = L.circleMarker(
+                [23.976647, 121.621122],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_dedd283a25088e20946d1466c193f428);
+        
+    
+        var popup_391b2283391e00a7e35446c83e55f0c9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0ee6c2885403dc9aed494d2cbf1e3213 = $(`<div id="html_0ee6c2885403dc9aed494d2cbf1e3213" style="width: 100.0%; height: 100.0%;"><b>Beibin</b><br>east · rivermouth · faces 135°<br>beginner, intermediate, advanced</div>`)[0];
+                popup_391b2283391e00a7e35446c83e55f0c9.setContent(html_0ee6c2885403dc9aed494d2cbf1e3213);
+            
+        
+
+        circle_marker_310a71c40e80bac612dedf97511f3473.bindPopup(popup_391b2283391e00a7e35446c83e55f0c9)
+        ;
+
+        
+    
+    
+            circle_marker_310a71c40e80bac612dedf97511f3473.bindTooltip(
+                `<div>
+                     Beibin
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_f2e5539da6bc967560311e68326ca52b = L.polyline(
+                [[23.976647, 121.621122], [23.920078457505078, 121.67769054249493]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_dedd283a25088e20946d1466c193f428);
+        
+    
+            var circle_marker_d388cfa972cce4d2f6acd677dfb449ac = L.circleMarker(
+                [23.114722, 121.398583],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_dedd283a25088e20946d1466c193f428);
+        
+    
+        var popup_ab774ce0c3ccfc54b9132f2e613ddb43 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6ffe5d841c0b74f53aafe30ad6b974f1 = $(`<div id="html_6ffe5d841c0b74f53aafe30ad6b974f1" style="width: 100.0%; height: 100.0%;"><b>Chenggong</b><br>east · point · faces 135°<br>advanced</div>`)[0];
+                popup_ab774ce0c3ccfc54b9132f2e613ddb43.setContent(html_6ffe5d841c0b74f53aafe30ad6b974f1);
+            
+        
+
+        circle_marker_d388cfa972cce4d2f6acd677dfb449ac.bindPopup(popup_ab774ce0c3ccfc54b9132f2e613ddb43)
+        ;
+
+        
+    
+    
+            circle_marker_d388cfa972cce4d2f6acd677dfb449ac.bindTooltip(
+                `<div>
+                     Chenggong
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_7517c33f9d20c3197c2d3fc487e60866 = L.polyline(
+                [[23.114722, 121.398583], [23.058153457505078, 121.45515154249493]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_dedd283a25088e20946d1466c193f428);
+        
+    
+            var circle_marker_f15ad81f1747119fd7ebd3588f9bc9c8 = L.circleMarker(
+                [24.932601, 121.885768],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_dedd283a25088e20946d1466c193f428);
+        
+    
+        var popup_8dd7b9b02b21835dfd95d2b1daaaadf9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c5751f5d0e3bdf092ce3bba9074cc7fc = $(`<div id="html_c5751f5d0e3bdf092ce3bba9074cc7fc" style="width: 100.0%; height: 100.0%;"><b>Daxi</b><br>northeast · beach · faces 135°<br>beginner, intermediate, advanced</div>`)[0];
+                popup_8dd7b9b02b21835dfd95d2b1daaaadf9.setContent(html_c5751f5d0e3bdf092ce3bba9074cc7fc);
+            
+        
+
+        circle_marker_f15ad81f1747119fd7ebd3588f9bc9c8.bindPopup(popup_8dd7b9b02b21835dfd95d2b1daaaadf9)
+        ;
+
+        
+    
+    
+            circle_marker_f15ad81f1747119fd7ebd3588f9bc9c8.bindTooltip(
+                `<div>
+                     Daxi
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_20ca6af50a7a5cc175a313baaaef25be = L.polyline(
+                [[24.932601, 121.885768], [24.876032457505076, 121.94233654249493]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_dedd283a25088e20946d1466c193f428);
+        
+    
+            var circle_marker_265030ce94f9bbc41a103e831bd295ba = L.circleMarker(
+                [22.973653, 121.311941],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_dedd283a25088e20946d1466c193f428);
+        
+    
+        var popup_9c060e491e5eac30f0738fc8698e402b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b3a5afcda75da585cbb2b2d167270a95 = $(`<div id="html_b3a5afcda75da585cbb2b2d167270a95" style="width: 100.0%; height: 100.0%;"><b>Donghe</b><br>east · rivermouth · faces 90°<br>intermediate, advanced</div>`)[0];
+                popup_9c060e491e5eac30f0738fc8698e402b.setContent(html_b3a5afcda75da585cbb2b2d167270a95);
+            
+        
+
+        circle_marker_265030ce94f9bbc41a103e831bd295ba.bindPopup(popup_9c060e491e5eac30f0738fc8698e402b)
+        ;
+
+        
+    
+    
+            circle_marker_265030ce94f9bbc41a103e831bd295ba.bindTooltip(
+                `<div>
+                     Donghe
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_2a45753252b8748bf7c3df5d677fbb39 = L.polyline(
+                [[22.973653, 121.311941], [22.973653, 121.391941]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_dedd283a25088e20946d1466c193f428);
+        
+    
+            var circle_marker_08519ad16f9d027c7424afb111459b1c = L.circleMarker(
+                [23.852595, 121.59529],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_dedd283a25088e20946d1466c193f428);
+        
+    
+        var popup_455af8f8c2444db93cad6561c0c04ab3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_63041800a66d6c6ea0c67e6fdd90dd01 = $(`<div id="html_63041800a66d6c6ea0c67e6fdd90dd01" style="width: 100.0%; height: 100.0%;"><b>Double Bridge</b><br>east · rivermouth · faces 90°<br>advanced</div>`)[0];
+                popup_455af8f8c2444db93cad6561c0c04ab3.setContent(html_63041800a66d6c6ea0c67e6fdd90dd01);
+            
+        
+
+        circle_marker_08519ad16f9d027c7424afb111459b1c.bindPopup(popup_455af8f8c2444db93cad6561c0c04ab3)
+        ;
+
+        
+    
+    
+            circle_marker_08519ad16f9d027c7424afb111459b1c.bindTooltip(
+                `<div>
+                     Double Bridge
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_2dd330e8b1520c4506e6e6560bd94544 = L.polyline(
+                [[23.852595, 121.59529], [23.852595, 121.67529]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_dedd283a25088e20946d1466c193f428);
+        
+    
+            var circle_marker_8eeeafb520b6a45af3aa76d34c5d9970 = L.circleMarker(
+                [24.888556, 121.84961],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_dedd283a25088e20946d1466c193f428);
+        
+    
+        var popup_3168beacd5022df4e9977ae2f65ea282 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b30ba0db0be17757784a1c7e075dc6a8 = $(`<div id="html_b30ba0db0be17757784a1c7e075dc6a8" style="width: 100.0%; height: 100.0%;"><b>Double Lions</b><br>northeast · beach · faces 90°<br>beginner, intermediate, advanced</div>`)[0];
+                popup_3168beacd5022df4e9977ae2f65ea282.setContent(html_b30ba0db0be17757784a1c7e075dc6a8);
+            
+        
+
+        circle_marker_8eeeafb520b6a45af3aa76d34c5d9970.bindPopup(popup_3168beacd5022df4e9977ae2f65ea282)
+        ;
+
+        
+    
+    
+            circle_marker_8eeeafb520b6a45af3aa76d34c5d9970.bindTooltip(
+                `<div>
+                     Double Lions
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_6ed5457e434d58d00f9486e3c4d907b9 = L.polyline(
+                [[24.888556, 121.84961], [24.888556, 121.92961]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_dedd283a25088e20946d1466c193f428);
+        
+    
+            var circle_marker_90e8a8a7fa6030c410d8f31aa072caf0 = L.circleMarker(
+                [22.880944, 121.241778],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_dedd283a25088e20946d1466c193f428);
+        
+    
+        var popup_158c8f3ccd4986a4aab0dd98eecaac9e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2c2ce1f404c9a8cdc9d08c21918a0cf2 = $(`<div id="html_2c2ce1f404c9a8cdc9d08c21918a0cf2" style="width: 100.0%; height: 100.0%;"><b>Dulan</b><br>east · beach · faces 135°<br>beginner, intermediate, advanced</div>`)[0];
+                popup_158c8f3ccd4986a4aab0dd98eecaac9e.setContent(html_2c2ce1f404c9a8cdc9d08c21918a0cf2);
+            
+        
+
+        circle_marker_90e8a8a7fa6030c410d8f31aa072caf0.bindPopup(popup_158c8f3ccd4986a4aab0dd98eecaac9e)
+        ;
+
+        
+    
+    
+            circle_marker_90e8a8a7fa6030c410d8f31aa072caf0.bindTooltip(
+                `<div>
+                     Dulan
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_d58355efd0f7565213732d25c829801f = L.polyline(
+                [[22.880944, 121.241778], [22.824375457505077, 121.29834654249493]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_dedd283a25088e20946d1466c193f428);
+        
+    
+            var circle_marker_916982042f8825822b2c275bdc2a4e34 = L.circleMarker(
+                [23.022447, 121.334657],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_dedd283a25088e20946d1466c193f428);
+        
+    
+        var popup_bf4d34647998b5249ea078a52d7346a3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4d36ec3728d4f2d331e9fa9d5631332b = $(`<div id="html_4d36ec3728d4f2d331e9fa9d5631332b" style="width: 100.0%; height: 100.0%;"><b>Duli</b><br>east · beach · faces 90°<br>beginner, intermediate, advanced</div>`)[0];
+                popup_bf4d34647998b5249ea078a52d7346a3.setContent(html_4d36ec3728d4f2d331e9fa9d5631332b);
+            
+        
+
+        circle_marker_916982042f8825822b2c275bdc2a4e34.bindPopup(popup_bf4d34647998b5249ea078a52d7346a3)
+        ;
+
+        
+    
+    
+            circle_marker_916982042f8825822b2c275bdc2a4e34.bindTooltip(
+                `<div>
+                     Duli
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_0addf22c6957e6256626821a41347e82 = L.polyline(
+                [[23.022447, 121.334657], [23.022447, 121.414657]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_dedd283a25088e20946d1466c193f428);
+        
+    
+            var circle_marker_1a11cd8653385b0684ddfdd58591a459 = L.circleMarker(
+                [23.397454, 121.480661],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_dedd283a25088e20946d1466c193f428);
+        
+    
+        var popup_36bb40286bb64eed8ae9841949410a4b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5022982f6d219c2a8c156ce924901ead = $(`<div id="html_5022982f6d219c2a8c156ce924901ead" style="width: 100.0%; height: 100.0%;"><b>Baxian Dong</b><br>east · point · faces 90°<br>advanced</div>`)[0];
+                popup_36bb40286bb64eed8ae9841949410a4b.setContent(html_5022982f6d219c2a8c156ce924901ead);
+            
+        
+
+        circle_marker_1a11cd8653385b0684ddfdd58591a459.bindPopup(popup_36bb40286bb64eed8ae9841949410a4b)
+        ;
+
+        
+    
+    
+            circle_marker_1a11cd8653385b0684ddfdd58591a459.bindTooltip(
+                `<div>
+                     Baxian Dong
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_a0fcdc8c37e19face085a80ea6e186c3 = L.polyline(
+                [[23.397454, 121.480661], [23.397454, 121.560661]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_dedd283a25088e20946d1466c193f428);
+        
+    
+            var circle_marker_3f01beb55d2341be76fd5d82ee48a62f = L.circleMarker(
+                [24.010331, 121.646504],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_dedd283a25088e20946d1466c193f428);
+        
+    
+        var popup_947b2fe029a20df9f657046d4ab953fe = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7ee5b0418590649b80511d412ae50b41 = $(`<div id="html_7ee5b0418590649b80511d412ae50b41" style="width: 100.0%; height: 100.0%;"><b>Environmental Park</b><br>east · reef · faces 68°<br>intermediate, advanced</div>`)[0];
+                popup_947b2fe029a20df9f657046d4ab953fe.setContent(html_7ee5b0418590649b80511d412ae50b41);
+            
+        
+
+        circle_marker_3f01beb55d2341be76fd5d82ee48a62f.bindPopup(popup_947b2fe029a20df9f657046d4ab953fe)
+        ;
+
+        
+    
+    
+            circle_marker_3f01beb55d2341be76fd5d82ee48a62f.bindTooltip(
+                `<div>
+                     Environmental Park
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_ffb3aaf295b524410b00082794b112c1 = L.polyline(
+                [[24.010331, 121.646504], [24.040945674589207, 121.72041436260089]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_dedd283a25088e20946d1466c193f428);
+        
+    
+            var circle_marker_029171da585d0aeb456e320702793286 = L.circleMarker(
+                [25.019898, 121.949],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_dedd283a25088e20946d1466c193f428);
+        
+    
+        var popup_8a7117725a39d2cd01634c9cbec248e9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_307dd9a6e94284a503856b6234839eb2 = $(`<div id="html_307dd9a6e94284a503856b6234839eb2" style="width: 100.0%; height: 100.0%;"><b>Fulong</b><br>north · rivermouth · faces 45°<br>beginner, intermediate, advanced</div>`)[0];
+                popup_8a7117725a39d2cd01634c9cbec248e9.setContent(html_307dd9a6e94284a503856b6234839eb2);
+            
+        
+
+        circle_marker_029171da585d0aeb456e320702793286.bindPopup(popup_8a7117725a39d2cd01634c9cbec248e9)
+        ;
+
+        
+    
+    
+            circle_marker_029171da585d0aeb456e320702793286.bindTooltip(
+                `<div>
+                     Fulong
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_203f9e76588163768e5f232b2d29ee73 = L.polyline(
+                [[25.019898, 121.949], [25.076466542494924, 122.00556854249493]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_dedd283a25088e20946d1466c193f428);
+        
+    
+            var circle_marker_6998c26fcdf45292410d623193060822 = L.circleMarker(
+                [24.903032, 121.865883],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_dedd283a25088e20946d1466c193f428);
+        
+    
+        var popup_146e71978152a0152c87b1910731410a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_03a2f3942d9de43d26bc470347f76a28 = $(`<div id="html_03a2f3942d9de43d26bc470347f76a28" style="width: 100.0%; height: 100.0%;"><b>Gengfang</b><br>northeast · point · faces 135°<br>advanced</div>`)[0];
+                popup_146e71978152a0152c87b1910731410a.setContent(html_03a2f3942d9de43d26bc470347f76a28);
+            
+        
+
+        circle_marker_6998c26fcdf45292410d623193060822.bindPopup(popup_146e71978152a0152c87b1910731410a)
+        ;
+
+        
+    
+    
+            circle_marker_6998c26fcdf45292410d623193060822.bindTooltip(
+                `<div>
+                     Gengfang
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_73735a50e5c3cb84026cdebe7e61594a = L.polyline(
+                [[24.903032, 121.865883], [24.846463457505077, 121.92245154249493]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_dedd283a25088e20946d1466c193f428);
+        
+    
+            var circle_marker_053c14258b987a2e77c1bd3e180a7c0d = L.circleMarker(
+                [23.828258, 121.584592],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_dedd283a25088e20946d1466c193f428);
+        
+    
+        var popup_1e314d476c887f6fcc4b44c4de783c74 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_25121689bcfd220e95b2d38c5eeefc81 = $(`<div id="html_25121689bcfd220e95b2d38c5eeefc81" style="width: 100.0%; height: 100.0%;"><b>Gongs</b><br>east · reef · faces 112°<br>intermediate, advanced</div>`)[0];
+                popup_1e314d476c887f6fcc4b44c4de783c74.setContent(html_25121689bcfd220e95b2d38c5eeefc81);
+            
+        
+
+        circle_marker_053c14258b987a2e77c1bd3e180a7c0d.bindPopup(popup_1e314d476c887f6fcc4b44c4de783c74)
+        ;
+
+        
+    
+    
+            circle_marker_053c14258b987a2e77c1bd3e180a7c0d.bindTooltip(
+                `<div>
+                     Gongs
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_213653b2ac11065e7d4ddac4122cb9ea = L.polyline(
+                [[23.828258, 121.584592], [23.797643325410796, 121.6585023626009]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_dedd283a25088e20946d1466c193f428);
+        
+    
+            var circle_marker_ba3ec549f3c821461c5da0ddc9d61467 = L.circleMarker(
+                [25.188029, 121.686354],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_dedd283a25088e20946d1466c193f428);
+        
+    
+        var popup_ee28a38a86c9ad28911326aaaf75ca27 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_12b3b860a4703a51260e4954983fe6b9 = $(`<div id="html_12b3b860a4703a51260e4954983fe6b9" style="width: 100.0%; height: 100.0%;"><b>Green Bay</b><br>north · beach · faces 45°<br>beginner, intermediate, advanced</div>`)[0];
+                popup_ee28a38a86c9ad28911326aaaf75ca27.setContent(html_12b3b860a4703a51260e4954983fe6b9);
+            
+        
+
+        circle_marker_ba3ec549f3c821461c5da0ddc9d61467.bindPopup(popup_ee28a38a86c9ad28911326aaaf75ca27)
+        ;
+
+        
+    
+    
+            circle_marker_ba3ec549f3c821461c5da0ddc9d61467.bindTooltip(
+                `<div>
+                     Green Bay
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_7f4561a848263d541113265d644f5268 = L.polyline(
+                [[25.188029, 121.686354], [25.244597542494922, 121.74292254249492]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_dedd283a25088e20946d1466c193f428);
+        
+    
+            var circle_marker_2b5117f7e4e3a870ac80279656070f52 = L.circleMarker(
+                [25.240041, 121.633753],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_dedd283a25088e20946d1466c193f428);
+        
+    
+        var popup_e29ffa8e04d563c6a91e84dcfffd294b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0f510ccbdc7ee99a1c001eb75849d97e = $(`<div id="html_0f510ccbdc7ee99a1c001eb75849d97e" style="width: 100.0%; height: 100.0%;"><b>Jinshan</b><br>north · beach · faces 45°<br>beginner, intermediate, advanced</div>`)[0];
+                popup_e29ffa8e04d563c6a91e84dcfffd294b.setContent(html_0f510ccbdc7ee99a1c001eb75849d97e);
+            
+        
+
+        circle_marker_2b5117f7e4e3a870ac80279656070f52.bindPopup(popup_e29ffa8e04d563c6a91e84dcfffd294b)
+        ;
+
+        
+    
+    
+            circle_marker_2b5117f7e4e3a870ac80279656070f52.bindTooltip(
+                `<div>
+                     Jinshan
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_0b6ba137f9ebdc2d40c55e181bb671d7 = L.polyline(
+                [[25.240041, 121.633753], [25.296609542494924, 121.69032154249493]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_dedd283a25088e20946d1466c193f428);
+        
+    
+            var circle_marker_4656be8f60a8518379f0bfd926d3a1cf = L.circleMarker(
+                [23.708205, 121.549359],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_dedd283a25088e20946d1466c193f428);
+        
+    
+        var popup_cbece6ec8dc32805e8ae428daab087aa = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dc3fcbd180c17e6b01ccf38621b4bfd1 = $(`<div id="html_dc3fcbd180c17e6b01ccf38621b4bfd1" style="width: 100.0%; height: 100.0%;"><b>Jiqi</b><br>east · beach · faces 90°<br>beginner, intermediate, advanced</div>`)[0];
+                popup_cbece6ec8dc32805e8ae428daab087aa.setContent(html_dc3fcbd180c17e6b01ccf38621b4bfd1);
+            
+        
+
+        circle_marker_4656be8f60a8518379f0bfd926d3a1cf.bindPopup(popup_cbece6ec8dc32805e8ae428daab087aa)
+        ;
+
+        
+    
+    
+            circle_marker_4656be8f60a8518379f0bfd926d3a1cf.bindTooltip(
+                `<div>
+                     Jiqi
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_b4b04d3ad0678a9abc26e3fec45e4548 = L.polyline(
+                [[23.708205, 121.549359], [23.708205, 121.629359]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_dedd283a25088e20946d1466c193f428);
+        
+    
+            var circle_marker_97b8825e71d32fd0afe4489a376c4881 = L.circleMarker(
+                [22.109309, 120.891043],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_dedd283a25088e20946d1466c193f428);
+        
+    
+        var popup_874deea48fd479e6d1cd6f1634898740 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6149e54776828517db36973e593a169c = $(`<div id="html_6149e54776828517db36973e593a169c" style="width: 100.0%; height: 100.0%;"><b>Jiupeng</b><br>south · beach · faces 45°<br>intermediate, advanced</div>`)[0];
+                popup_874deea48fd479e6d1cd6f1634898740.setContent(html_6149e54776828517db36973e593a169c);
+            
+        
+
+        circle_marker_97b8825e71d32fd0afe4489a376c4881.bindPopup(popup_874deea48fd479e6d1cd6f1634898740)
+        ;
+
+        
+    
+    
+            circle_marker_97b8825e71d32fd0afe4489a376c4881.bindTooltip(
+                `<div>
+                     Jiupeng
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_3d001731eeff7dc461ef65ef7657d59f = L.polyline(
+                [[22.109309, 120.891043], [22.165877542494922, 120.94761154249493]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_dedd283a25088e20946d1466c193f428);
+        
+    
+            var circle_marker_8f9378b85b84484b6a2a0d7f0f980db9 = L.circleMarker(
+                [21.959292, 120.762598],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_dedd283a25088e20946d1466c193f428);
+        
+    
+        var popup_50bc7f57ecb4464940776aa1b4b89a31 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d0e305df6cb9b8f8909d738440b53bfa = $(`<div id="html_d0e305df6cb9b8f8909d738440b53bfa" style="width: 100.0%; height: 100.0%;"><b>Nanwan</b><br>south · beach · faces 180°<br>beginner, intermediate, advanced</div>`)[0];
+                popup_50bc7f57ecb4464940776aa1b4b89a31.setContent(html_d0e305df6cb9b8f8909d738440b53bfa);
+            
+        
+
+        circle_marker_8f9378b85b84484b6a2a0d7f0f980db9.bindPopup(popup_50bc7f57ecb4464940776aa1b4b89a31)
+        ;
+
+        
+    
+    
+            circle_marker_8f9378b85b84484b6a2a0d7f0f980db9.bindTooltip(
+                `<div>
+                     Nanwan
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_a2c81cb1b70d7a30e19ecc78f525961c = L.polyline(
+                [[21.959292, 120.762598], [21.879292000000003, 120.762598]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_dedd283a25088e20946d1466c193f428);
+        
+    
+            var circle_marker_76b6a5502411c71a5f68adb2fbb3ea6b = L.circleMarker(
+                [23.513, 119.59075],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_dedd283a25088e20946d1466c193f428);
+        
+    
+        var popup_64fd2076724a82c270239b799b595367 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_68e5e900d807d065296aa2ba0841fe44 = $(`<div id="html_68e5e900d807d065296aa2ba0841fe44" style="width: 100.0%; height: 100.0%;"><b>Shanshui</b><br>islands · beach · faces 180°<br>beginner, intermediate, advanced</div>`)[0];
+                popup_64fd2076724a82c270239b799b595367.setContent(html_68e5e900d807d065296aa2ba0841fe44);
+            
+        
+
+        circle_marker_76b6a5502411c71a5f68adb2fbb3ea6b.bindPopup(popup_64fd2076724a82c270239b799b595367)
+        ;
+
+        
+    
+    
+            circle_marker_76b6a5502411c71a5f68adb2fbb3ea6b.bindTooltip(
+                `<div>
+                     Shanshui
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_2daad8bda184a7137cdc48f1a3dced3c = L.polyline(
+                [[23.513, 119.59075], [23.433000000000003, 119.59075]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_dedd283a25088e20946d1466c193f428);
+        
+    
+            var circle_marker_2c74b2868895880dbd21e9bcbcd10f14 = L.circleMarker(
+                [22.056413, 120.703433],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_dedd283a25088e20946d1466c193f428);
+        
+    
+        var popup_3596018c69a87959a99a9bdbaf8ca3ed = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e8a2c6b90c02fdaa3be9b2b8ea4284a5 = $(`<div id="html_e8a2c6b90c02fdaa3be9b2b8ea4284a5" style="width: 100.0%; height: 100.0%;"><b>Sheliao</b><br>south · point · faces 270°<br>intermediate, advanced</div>`)[0];
+                popup_3596018c69a87959a99a9bdbaf8ca3ed.setContent(html_e8a2c6b90c02fdaa3be9b2b8ea4284a5);
+            
+        
+
+        circle_marker_2c74b2868895880dbd21e9bcbcd10f14.bindPopup(popup_3596018c69a87959a99a9bdbaf8ca3ed)
+        ;
+
+        
+    
+    
+            circle_marker_2c74b2868895880dbd21e9bcbcd10f14.bindTooltip(
+                `<div>
+                     Sheliao
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_2d9cc66b74e0a960ce188bf4aa9254a4 = L.polyline(
+                [[22.056413, 120.703433], [22.056413, 120.623433]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_dedd283a25088e20946d1466c193f428);
+        
+    
+            var circle_marker_431a1ca0d11d37f39c5b6c191a318f26 = L.circleMarker(
+                [22.993381, 120.141996],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_dedd283a25088e20946d1466c193f428);
+        
+    
+        var popup_f4d20553fb4f3320e4cfa3a7bd29c552 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_74f25e8e0ce6f7e12c34342e4b36180d = $(`<div id="html_74f25e8e0ce6f7e12c34342e4b36180d" style="width: 100.0%; height: 100.0%;"><b>Sicao Bridge</b><br>southwest · beach · faces 225°<br>beginner, intermediate, advanced</div>`)[0];
+                popup_f4d20553fb4f3320e4cfa3a7bd29c552.setContent(html_74f25e8e0ce6f7e12c34342e4b36180d);
+            
+        
+
+        circle_marker_431a1ca0d11d37f39c5b6c191a318f26.bindPopup(popup_f4d20553fb4f3320e4cfa3a7bd29c552)
+        ;
+
+        
+    
+    
+            circle_marker_431a1ca0d11d37f39c5b6c191a318f26.bindTooltip(
+                `<div>
+                     Sicao Bridge
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_f11c7c61343ac182aaafc5a0d29a51fd = L.polyline(
+                [[22.993381, 120.141996], [22.936812457505077, 120.08542745750508]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_dedd283a25088e20946d1466c193f428);
+        
+    
+            var circle_marker_ea8c68595d15ff2d52b1599870b6ef2f = L.circleMarker(
+                [24.432481, 120.616827],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_dedd283a25088e20946d1466c193f428);
+        
+    
+        var popup_ae965fe3a594c5316d88d6e7088380ff = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7c9484e6e193029fbcd916e4fdb9fead = $(`<div id="html_7c9484e6e193029fbcd916e4fdb9fead" style="width: 100.0%; height: 100.0%;"><b>Songbai Harbor</b><br>west · beach · faces 315°<br>beginner, intermediate, advanced</div>`)[0];
+                popup_ae965fe3a594c5316d88d6e7088380ff.setContent(html_7c9484e6e193029fbcd916e4fdb9fead);
+            
+        
+
+        circle_marker_ea8c68595d15ff2d52b1599870b6ef2f.bindPopup(popup_ae965fe3a594c5316d88d6e7088380ff)
+        ;
+
+        
+    
+    
+            circle_marker_ea8c68595d15ff2d52b1599870b6ef2f.bindTooltip(
+                `<div>
+                     Songbai Harbor
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_7dd8e8b2fc2dbef53d2aca897182aeb3 = L.polyline(
+                [[24.432481, 120.616827], [24.48904954249492, 120.56025845750507]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_dedd283a25088e20946d1466c193f428);
+        
+    
+            var circle_marker_3e3e38ea74ddbfc7c654aa46fcdc36de = L.circleMarker(
+                [24.653837, 120.773386],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_dedd283a25088e20946d1466c193f428);
+        
+    
+        var popup_9aa37a2f9b074123316c8c5d89a23286 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ea86c1d2f5367c7d589a424f59657ec0 = $(`<div id="html_ea86c1d2f5367c7d589a424f59657ec0" style="width: 100.0%; height: 100.0%;"><b>Waipu</b><br>west · beach · faces 315°<br>beginner, intermediate, advanced</div>`)[0];
+                popup_9aa37a2f9b074123316c8c5d89a23286.setContent(html_ea86c1d2f5367c7d589a424f59657ec0);
+            
+        
+
+        circle_marker_3e3e38ea74ddbfc7c654aa46fcdc36de.bindPopup(popup_9aa37a2f9b074123316c8c5d89a23286)
+        ;
+
+        
+    
+    
+            circle_marker_3e3e38ea74ddbfc7c654aa46fcdc36de.bindTooltip(
+                `<div>
+                     Waipu
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_69ff6cc2339d178d0af7a7a2ee873657 = L.polyline(
+                [[24.653837, 120.773386], [24.71040554249492, 120.71681745750507]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_dedd283a25088e20946d1466c193f428);
+        
+    
+            var circle_marker_27c6918f35faa04067b4eaa095ec583d = L.circleMarker(
+                [25.181028, 121.691028],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_dedd283a25088e20946d1466c193f428);
+        
+    
+        var popup_210758297553a60a54c70cd1fabc0916 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6dd90525bbdb6fd9d1108900bf6415a3 = $(`<div id="html_6dd90525bbdb6fd9d1108900bf6415a3" style="width: 100.0%; height: 100.0%;"><b>Wanli</b><br>north · beach · faces 45°<br>beginner, intermediate, advanced</div>`)[0];
+                popup_210758297553a60a54c70cd1fabc0916.setContent(html_6dd90525bbdb6fd9d1108900bf6415a3);
+            
+        
+
+        circle_marker_27c6918f35faa04067b4eaa095ec583d.bindPopup(popup_210758297553a60a54c70cd1fabc0916)
+        ;
+
+        
+    
+    
+            circle_marker_27c6918f35faa04067b4eaa095ec583d.bindTooltip(
+                `<div>
+                     Wanli
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_15af9de62c1f01fe10430eea2fd7b63a = L.polyline(
+                [[25.181028, 121.691028], [25.237596542494924, 121.74759654249493]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_dedd283a25088e20946d1466c193f428);
+        
+    
+            var circle_marker_5abc04a0400fd1963fd8b69fe084dc93 = L.circleMarker(
+                [24.610554, 121.863855],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_dedd283a25088e20946d1466c193f428);
+        
+    
+        var popup_68742b52b7ae27c7bbcb29e682a03050 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a9d54d519606c4925e86e0a8f370d2fa = $(`<div id="html_a9d54d519606c4925e86e0a8f370d2fa" style="width: 100.0%; height: 100.0%;"><b>Wuwei Harbor</b><br>northeast · beach · faces 45°<br>beginner, intermediate, advanced</div>`)[0];
+                popup_68742b52b7ae27c7bbcb29e682a03050.setContent(html_a9d54d519606c4925e86e0a8f370d2fa);
+            
+        
+
+        circle_marker_5abc04a0400fd1963fd8b69fe084dc93.bindPopup(popup_68742b52b7ae27c7bbcb29e682a03050)
+        ;
+
+        
+    
+    
+            circle_marker_5abc04a0400fd1963fd8b69fe084dc93.bindTooltip(
+                `<div>
+                     Wuwei Harbor
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_cab1cd6624e563fc9493de2185c27a13 = L.polyline(
+                [[24.610554, 121.863855], [24.667122542494923, 121.92042354249493]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_dedd283a25088e20946d1466c193f428);
+        
+    
+            var circle_marker_6f3eb7e1073c3f812260b4c7a293901d = L.circleMarker(
+                [23.20866, 121.399553],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_dedd283a25088e20946d1466c193f428);
+        
+    
+        var popup_8ce053547a639ae334d316fb37ccdd54 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a72bc578550bdfc8019ca4675208ea9e = $(`<div id="html_a72bc578550bdfc8019ca4675208ea9e" style="width: 100.0%; height: 100.0%;"><b>Yiwan</b><br>east · point · faces 135°<br>intermediate, advanced</div>`)[0];
+                popup_8ce053547a639ae334d316fb37ccdd54.setContent(html_a72bc578550bdfc8019ca4675208ea9e);
+            
+        
+
+        circle_marker_6f3eb7e1073c3f812260b4c7a293901d.bindPopup(popup_8ce053547a639ae334d316fb37ccdd54)
+        ;
+
+        
+    
+    
+            circle_marker_6f3eb7e1073c3f812260b4c7a293901d.bindTooltip(
+                `<div>
+                     Yiwan
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_3d1358f2a4ae64f367b5c2c4df5ee894 = L.polyline(
+                [[23.20866, 121.399553], [23.152091457505076, 121.45612154249493]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_dedd283a25088e20946d1466c193f428);
+        
+    
+            var circle_marker_dff1e386ba5c37b0da814b2373a03578 = L.circleMarker(
+                [22.980676, 120.154545],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_dedd283a25088e20946d1466c193f428);
+        
+    
+        var popup_d25b3d72649807682cdb08e8c29f2060 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_17239674838270b1511e20c6f6f5712e = $(`<div id="html_17239674838270b1511e20c6f6f5712e" style="width: 100.0%; height: 100.0%;"><b>Yuguangdao</b><br>southwest · beach · faces 225°<br>beginner, intermediate, advanced</div>`)[0];
+                popup_d25b3d72649807682cdb08e8c29f2060.setContent(html_17239674838270b1511e20c6f6f5712e);
+            
+        
+
+        circle_marker_dff1e386ba5c37b0da814b2373a03578.bindPopup(popup_d25b3d72649807682cdb08e8c29f2060)
+        ;
+
+        
+    
+    
+            circle_marker_dff1e386ba5c37b0da814b2373a03578.bindTooltip(
+                `<div>
+                     Yuguangdao
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_fe43dca673ddb2ec1abd9f6745b96a12 = L.polyline(
+                [[22.980676, 120.154545], [22.924107457505077, 120.09797645750507]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_dedd283a25088e20946d1466c193f428);
+        
+    
+            var circle_marker_d47c6bae4b57a6d731f660ad20813e88 = L.circleMarker(
+                [24.817046, 121.821815],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_dedd283a25088e20946d1466c193f428);
+        
+    
+        var popup_328e6d19fbd82eb110506d50186bd80f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_025f4b369cd73e4effb8827be91be83c = $(`<div id="html_025f4b369cd73e4effb8827be91be83c" style="width: 100.0%; height: 100.0%;"><b>Zhu'an</b><br>northeast · beach · faces 90°<br>beginner, intermediate, advanced</div>`)[0];
+                popup_328e6d19fbd82eb110506d50186bd80f.setContent(html_025f4b369cd73e4effb8827be91be83c);
+            
+        
+
+        circle_marker_d47c6bae4b57a6d731f660ad20813e88.bindPopup(popup_328e6d19fbd82eb110506d50186bd80f)
+        ;
+
+        
+    
+    
+            circle_marker_d47c6bae4b57a6d731f660ad20813e88.bindTooltip(
+                `<div>
+                     Zhu'an
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_000221fef7d50e26e1ef65056cd7aab0 = L.polyline(
+                [[24.817046, 121.821815], [24.817046, 121.901815]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_dedd283a25088e20946d1466c193f428);
+        
+    
+            var circle_marker_ee05acdcdcab12e3e256e37b12fc97d3 = L.circleMarker(
+                [24.697639, 120.854471],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_dedd283a25088e20946d1466c193f428);
+        
+    
+        var popup_6c112478a60fdcabd6ebd46f8b895547 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_840fda053262bb3a119447fed4b59aba = $(`<div id="html_840fda053262bb3a119447fed4b59aba" style="width: 100.0%; height: 100.0%;"><b>Zhunan</b><br>west · beach · faces 315°<br>beginner, intermediate, advanced</div>`)[0];
+                popup_6c112478a60fdcabd6ebd46f8b895547.setContent(html_840fda053262bb3a119447fed4b59aba);
+            
+        
+
+        circle_marker_ee05acdcdcab12e3e256e37b12fc97d3.bindPopup(popup_6c112478a60fdcabd6ebd46f8b895547)
+        ;
+
+        
+    
+    
+            circle_marker_ee05acdcdcab12e3e256e37b12fc97d3.bindTooltip(
+                `<div>
+                     Zhunan
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_43c38e2519a165286bd628059bd42c3c = L.polyline(
+                [[24.697639, 120.854471], [24.75420754249492, 120.79790245750507]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_dedd283a25088e20946d1466c193f428);
+        
+    
+            var circle_marker_9264981a5b147d340275da3e6002831f = L.circleMarker(
+                [22.6258, 120.2622],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_dedd283a25088e20946d1466c193f428);
+        
+    
+        var popup_513e91b5840494fed7f500dc551941e5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_603be1de7b4e9f7b2461a05f528f9778 = $(`<div id="html_603be1de7b4e9f7b2461a05f528f9778" style="width: 100.0%; height: 100.0%;"><b>NSYSU Beach</b><br>southwest · beach · faces 276°<br>beginner, intermediate</div>`)[0];
+                popup_513e91b5840494fed7f500dc551941e5.setContent(html_603be1de7b4e9f7b2461a05f528f9778);
+            
+        
+
+        circle_marker_9264981a5b147d340275da3e6002831f.bindPopup(popup_513e91b5840494fed7f500dc551941e5)
+        ;
+
+        
+    
+    
+            circle_marker_9264981a5b147d340275da3e6002831f.bindTooltip(
+                `<div>
+                     NSYSU Beach
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_48b844dda06af2b423317cf22b3ec3e8 = L.polyline(
+                [[22.6258, 120.2622], [22.634162277061414, 120.18263824837055]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_dedd283a25088e20946d1466c193f428);
+        
+</script>
+</html>

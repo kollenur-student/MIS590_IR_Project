@@ -1,0 +1,17 @@
+{
+  "n_docs": 35,
+  "vocab_size": 480,
+  "mean_doc_length_tokens": 79.2,
+  "bm25_build_ms": 17.12,
+  "bm25_size_kb": 64.9,
+  "dense_build_s": null,
+  "dense_size_kb": null,
+  "dense_model": null,
+  "bm25_params": {
+    "k1": 1.2,
+    "b": 0.75,
+    "idf": "lucene",
+    "stemmer": "snowball-english",
+    "stopwords": "sklearn-english minus DOMAIN_KEEP"
+  }
+}

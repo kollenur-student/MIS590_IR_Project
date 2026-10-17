@@ -74,6 +74,4 @@ When a query is finished, copy its grades into `eval/qrels.txt` (`qid 0 spot_id 
 
 ## 8. Query origins
 
-| qid | Origin (paraphrased from …) |
-|---|---|
-| | |
+Every query in `eval/queries.tsv` is paraphrased from a real question posted on the Forumosa expat forum (tw.forumosa.com, 2003–2020). Source link, date, thread title and the verbatim original wording are listed per query in **`eval/query_sources.csv`**. [TEAM] Review the queries, and replace or add queries from other real sources (surf-school FAQs, your own surf trips) if a query type is under-represented.

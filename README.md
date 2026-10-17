@@ -175,10 +175,10 @@ The evaluation compares all system variants on the same queries and snapshots (n
 
 **Workflow:**
 1. Complete `RELEVANCE_GUIDELINES.md` as a team.
-2. Write ~50 queries in `eval/queries.tsv` (about 8 per type: location, skill, time, attribute, vague, plus ~10 mixed; ~15 `dev`, ~35 `test`; 3–4 snapshot dates with different conditions). Write them **before** looking at system output.
-3. In the first cell of notebook 05 set `QUERIES_FILE = EVAL_DIR / "queries.tsv"` and run it. This exports `results/judging_pool.csv`, the (query, spot) pairs to judge (top 10 of every system).
+2. Review the 50 queries in `eval/queries.tsv`. Each is paraphrased from a real Forumosa forum question (source, date and verbatim wording in `eval/query_sources.csv`); 7–10 per type (location, skill, time, attribute, vague, mixed); 15 `dev`, 35 `test`. Once more snapshots exist, spread the snapshot dates over 3–4 days with different conditions. Finalise the queries **before** looking at system output.
+3. In the first cell of notebook 05 set `QUERIES_FILE = EVAL_DIR / "queries.tsv"` and `QRELS_FILE = EVAL_DIR / "qrels.txt"`, then run it. Without judgments it only runs all systems and exports `results/judging_pool.csv`, the (query, spot) pairs to judge (top 10 of every system; about 730 pairs for the 50 queries). The metric sections are skipped until judgments exist.
 4. Judge the pool using `judging_template.csv`; copy the grades into `eval/qrels.txt`. A second judge fills `qrels_judge2.txt` for ~10 queries.
-5. Set `QRELS_FILE = EVAL_DIR / "qrels.txt"`, `EVAL_SPLIT = "test"` and `TUNE_ALPHA = True`, then run notebook 05 again.
+5. Set `EVAL_SPLIT = "test"` and `TUNE_ALPHA = True`, then run notebook 05 again for the full evaluation.
 
 **What notebook 05 reports:**
 

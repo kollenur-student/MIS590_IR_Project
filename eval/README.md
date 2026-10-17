@@ -3,7 +3,8 @@
 | File | Format | Status |
 |---|---|---|
 | `smoke_test_queries.tsv`, `smoke_test_qrels.txt` | see below | **Mock data for a smoke test only. Never report results from these.** |
-| `queries.tsv` | tab-separated, header `qid	query	snapshot_date	query_type	split` | [TEAM] write ~50 queries |
+| `queries.tsv` | tab-separated, header `qid	query	snapshot_date	query_type	split` | 50 queries (15 dev, 35 test), each paraphrased from a real Forumosa forum question |
+| `query_sources.csv` | `qid, query, source, source_url, source_date, source_title, original_wording` | Where each query comes from (verbatim quote of the original question) |
 | `qrels.txt` | TREC qrels: `qid 0 spot_id grade` (space-separated) | [TEAM] relevance judgments (grades 0-3) |
 | `qrels_judge2.txt` | same format, second judge on the overlap sample | [TEAM] for Cohen's kappa |
 

@@ -1,0 +1,39 @@
+{
+  "fetched_at": "2026-10-17T10:45:27",
+  "timezone": "Asia/Taipei",
+  "n_spots": 35,
+  "marine_failed": {},
+  "wind_failed": {},
+  "cwa_status": "ok",
+  "cwa_datasets": {
+    "obs_48h": "O-B0075-001"
+  },
+  "n_obs_rows": 4165,
+  "duration_s": 23.1,
+  "attribution": [
+    "Marine and weather forecasts: Open-Meteo.com (CC BY 4.0), incl. DWD wave model data",
+    "Observations: Central Weather Administration (CWA) Open Data, Taiwan"
+  ],
+  "parameters": {
+    "forecast_days": 7,
+    "marine_vars": [
+      "wave_height",
+      "wave_direction",
+      "wave_period",
+      "swell_wave_height",
+      "swell_wave_direction",
+      "swell_wave_period",
+      "wind_wave_height",
+      "wind_wave_direction",
+      "wind_wave_period",
+      "sea_level_height_msl"
+    ],
+    "wind_vars": [
+      "wind_speed_10m",
+      "wind_direction_10m",
+      "wind_gusts_10m",
+      "temperature_2m"
+    ]
+  },
+  "status": "complete"
+}

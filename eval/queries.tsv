@@ -1,5 +1,54 @@
-# Test collection queries - written by the team (see eval/RELEVANCE_GUIDELINES.md, section 1).
-# Tab-separated. One query per line below the header. Lines starting with # are ignored.
-# qid: Q01, Q02, ...   snapshot_date: YYYY-MM-DD (must exist in data/snapshots/)
-# query_type: location | skill | time | attribute | vague | mixed   split: dev (~15) | test (~35)
+# Test collection: 50 English queries, each paraphrased from a real question asked on the Forumosa expat forum
+# (source, date and original wording per query: eval/query_sources.csv). Lines starting with # are ignored.
+# snapshot_date alternates between the available snapshots; [TEAM] reassign to 3-4 days with different conditions once more snapshots exist.
 qid	query	snapshot_date	query_type	split
+Q01	surf spots near Taipei	2026-10-16	location	dev
+Q02	where to surf near Danshui	2026-10-17	location	test
+Q03	surfing near Kenting	2026-10-16	location	test
+Q04	surf spots in Taitung	2026-10-17	location	test
+Q05	where to surf in Hualien	2026-10-16	location	dev
+Q06	beaches to surf in Yilan	2026-10-17	location	test
+Q07	surfing at Shalun beach in Danshui	2026-10-16	location	test
+Q08	surf spot near Hengchun	2026-10-17	location	dev
+Q09	surfing in the northeast	2026-10-16	location	test
+Q10	where can a complete beginner learn to surf	2026-10-17	skill	dev
+Q11	beginner friendly surf beach	2026-10-16	skill	test
+Q12	easy waves for someone who has never surfed	2026-10-17	skill	test
+Q13	more challenging waves for an experienced surfer	2026-10-16	skill	dev
+Q14	consistent medium sized waves for an intermediate surfer	2026-10-17	skill	test
+Q15	spot to get back into surfing after many years	2026-10-16	skill	test
+Q16	beginner who has surfed only once before	2026-10-17	skill	test
+Q17	surf in Dulan on Saturday	2026-10-16	time	dev
+Q18	surf near Fulong this weekend	2026-10-17	time	test
+Q19	where will the waves be good from tomorrow to Sunday	2026-10-16	time	dev
+Q20	surfing during a typhoon swell today	2026-10-17	time	test
+Q21	surfing in Kenting in May	2026-10-16	time	test
+Q22	surfing in Kenting from December to March	2026-10-17	time	dev
+Q23	surf trip from September to November	2026-10-16	time	test
+Q24	best season to surf in Taitung	2026-10-17	time	test
+Q25	surfboard rental near Fulong	2026-10-16	attribute	test
+Q26	surf school in Kenting	2026-10-17	attribute	dev
+Q27	bodyboard spot in north Taiwan	2026-10-16	attribute	test
+Q28	clean beach with toilets and shops near Taipei	2026-10-17	attribute	test
+Q29	surf beach reachable by train from Taipei	2026-10-16	attribute	test
+Q30	longboard spot for a 9 foot board	2026-10-17	attribute	dev
+Q31	surf shop for a longboard and wetsuit in Kenting	2026-10-16	attribute	test
+Q32	surf lessons near Taipei	2026-10-17	attribute	test
+Q33	is the surf in Taiwan any good	2026-10-16	vague	test
+Q34	best surf spots in Taiwan	2026-10-17	vague	dev
+Q35	where to surf in Taiwan	2026-10-16	vague	test
+Q36	best beaches in Taiwan for surfing	2026-10-17	vague	test
+Q37	where can I find decent waves	2026-10-16	vague	test
+Q38	relaxing surf beach	2026-10-17	vague	test
+Q39	Yilan or Hualien for better surf	2026-10-16	vague	dev
+Q40	where to stay for a surf trip in Taiwan	2026-10-17	vague	test
+Q41	beginner surfing in Kenting	2026-10-16	mixed	dev
+Q42	learn to surf with an instructor in Taitung	2026-10-17	mixed	test
+Q43	good waves near Taipei tomorrow	2026-10-16	mixed	test
+Q44	intermediate surfer in Hengchun this week	2026-10-17	mixed	dev
+Q45	beginner waves at Fulong this weekend	2026-10-16	mixed	test
+Q46	board rental and surfing near Danshui	2026-10-17	mixed	test
+Q47	challenging waves for an experienced surfer in the south	2026-10-16	mixed	test
+Q48	first surf lesson for a child in April	2026-10-17	mixed	test
+Q49	longboard surfing in Kenting this winter	2026-10-16	mixed	test
+Q50	Wushi harbor surfing this weekend	2026-10-17	mixed	dev

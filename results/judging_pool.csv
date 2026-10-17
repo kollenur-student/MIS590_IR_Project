@@ -1,88 +1,116 @@
-qid,spot_id,system,already_judged,query,snapshot_date
-S1,DAXI,baseline;improved;improved_no_cf;improved_no_qu;improved_no_syn;improved_oracle,False,beginner-friendly beach break near Yilan this weekend,2026-10-16
-S1,DOUBLE_LIONS,baseline;improved;improved_no_cf;improved_no_qu;improved_no_syn;improved_oracle,False,beginner-friendly beach break near Yilan this weekend,2026-10-16
-S1,DULAN,improved_no_qu,False,beginner-friendly beach break near Yilan this weekend,2026-10-16
-S1,DULI,baseline;improved_no_qu,False,beginner-friendly beach break near Yilan this weekend,2026-10-16
-S1,FULONG,improved;improved_no_cf;improved_no_syn;improved_oracle,False,beginner-friendly beach break near Yilan this weekend,2026-10-16
-S1,GENGFANG,baseline;improved;improved_no_cf;improved_no_syn;improved_oracle,False,beginner-friendly beach break near Yilan this weekend,2026-10-16
-S1,JIALESHUEI,improved_no_qu,True,beginner-friendly beach break near Yilan this weekend,2026-10-16
-S1,JIQI,improved_no_qu,False,beginner-friendly beach break near Yilan this weekend,2026-10-16
-S1,NSYSU_BEACH,baseline,False,beginner-friendly beach break near Yilan this weekend,2026-10-16
-S1,SICAO_BRIDGE,baseline,False,beginner-friendly beach break near Yilan this weekend,2026-10-16
-S1,WAIAO_BEACH,baseline;improved;improved_no_cf;improved_no_qu;improved_no_syn;improved_oracle,True,beginner-friendly beach break near Yilan this weekend,2026-10-16
-S1,WUWEI,baseline;improved;improved_no_cf;improved_no_qu;improved_no_syn;improved_oracle,False,beginner-friendly beach break near Yilan this weekend,2026-10-16
-S1,YUGUANGDAO,baseline;improved_no_qu,False,beginner-friendly beach break near Yilan this weekend,2026-10-16
-S1,ZHUAN,baseline;improved;improved_no_cf;improved_no_qu;improved_no_syn;improved_oracle,False,beginner-friendly beach break near Yilan this weekend,2026-10-16
-S2,BAXIAN_DONG,improved_no_cf;improved_oracle,False,uncrowded reef break on the east coast tomorrow morning,2026-10-16
-S2,CHENGGONG,baseline;improved;improved_no_cf;improved_no_qu;improved_no_syn;improved_oracle,False,uncrowded reef break on the east coast tomorrow morning,2026-10-16
-S2,DONGHE,baseline;improved;improved_no_cf;improved_no_qu;improved_no_syn;improved_oracle,False,uncrowded reef break on the east coast tomorrow morning,2026-10-16
-S2,DOUBLE_BRIDGE,improved_no_cf;improved_oracle,False,uncrowded reef break on the east coast tomorrow morning,2026-10-16
-S2,DULAN,improved;improved_no_syn,False,uncrowded reef break on the east coast tomorrow morning,2026-10-16
-S2,DULI,improved;improved_no_cf;improved_no_syn;improved_oracle,False,uncrowded reef break on the east coast tomorrow morning,2026-10-16
-S2,ENVIRONMENTAL_PARK,baseline;improved;improved_no_cf;improved_no_qu;improved_no_syn;improved_oracle,False,uncrowded reef break on the east coast tomorrow morning,2026-10-16
-S2,GONGS,baseline;improved;improved_no_cf;improved_no_qu;improved_no_syn;improved_oracle,False,uncrowded reef break on the east coast tomorrow morning,2026-10-16
-S2,JIALESHUEI,baseline;improved_no_qu,True,uncrowded reef break on the east coast tomorrow morning,2026-10-16
-S2,JINSHAN,baseline;improved_no_qu,False,uncrowded reef break on the east coast tomorrow morning,2026-10-16
-S2,JINZUN_HARBOR,improved;improved_no_cf;improved_no_qu;improved_no_syn;improved_oracle,True,uncrowded reef break on the east coast tomorrow morning,2026-10-16
-S2,JIQI,improved;improved_no_cf;improved_no_qu;improved_no_syn;improved_oracle,False,uncrowded reef break on the east coast tomorrow morning,2026-10-16
-S2,JIUPENG,baseline,False,uncrowded reef break on the east coast tomorrow morning,2026-10-16
-S2,NANWAN,improved_no_qu,False,uncrowded reef break on the east coast tomorrow morning,2026-10-16
-S2,NSYSU_BEACH,baseline,False,uncrowded reef break on the east coast tomorrow morning,2026-10-16
-S2,YIWAN,improved;improved_no_syn,False,uncrowded reef break on the east coast tomorrow morning,2026-10-16
-S2,ZHUAN,baseline;improved;improved_no_cf;improved_no_qu;improved_no_syn;improved_oracle,False,uncrowded reef break on the east coast tomorrow morning,2026-10-16
-S2,ZHUNAN,baseline,False,uncrowded reef break on the east coast tomorrow morning,2026-10-16
-S3,DAXI,baseline;improved;improved_no_cf;improved_no_qu;improved_no_syn;improved_oracle,False,where are the best waves this weekend,2026-10-16
-S3,DULAN,improved;improved_no_qu;improved_no_syn,False,where are the best waves this weekend,2026-10-16
-S3,ENVIRONMENTAL_PARK,improved_no_qu,False,where are the best waves this weekend,2026-10-16
-S3,GONGS,improved_no_qu,False,where are the best waves this weekend,2026-10-16
-S3,JIALESHUEI,improved;improved_no_qu;improved_no_syn,True,where are the best waves this weekend,2026-10-16
-S3,JINSHAN,baseline;improved_no_cf;improved_oracle,False,where are the best waves this weekend,2026-10-16
-S3,JINZUN_HARBOR,baseline;improved;improved_no_cf;improved_no_qu;improved_no_syn;improved_oracle,True,where are the best waves this weekend,2026-10-16
-S3,JIQI,improved;improved_no_qu;improved_no_syn,False,where are the best waves this weekend,2026-10-16
-S3,JIUPENG,improved_oracle,False,where are the best waves this weekend,2026-10-16
-S3,NANWAN,improved_oracle,False,where are the best waves this weekend,2026-10-16
-S3,SICAO_BRIDGE,baseline;improved;improved_no_cf;improved_no_qu;improved_no_syn;improved_oracle,False,where are the best waves this weekend,2026-10-16
-S3,WAIAO_BEACH,baseline;improved;improved_no_cf;improved_no_qu;improved_no_syn;improved_oracle,True,where are the best waves this weekend,2026-10-16
-S3,WAIPU,baseline;improved_no_cf;improved_oracle,False,where are the best waves this weekend,2026-10-16
-S3,WANLI,baseline;improved_no_cf,False,where are the best waves this weekend,2026-10-16
-S3,WUWEI,improved;improved_no_syn,False,where are the best waves this weekend,2026-10-16
-S3,YIWAN,improved;improved_no_syn,False,where are the best waves this weekend,2026-10-16
-S3,YUGUANGDAO,baseline;improved;improved_no_cf;improved_no_qu;improved_no_syn;improved_oracle,False,where are the best waves this weekend,2026-10-16
-S3,ZHUAN,baseline;improved_no_cf,False,where are the best waves this weekend,2026-10-16
-S3,ZHUNAN,baseline;improved_no_cf;improved_oracle,False,where are the best waves this weekend,2026-10-16
-S4,CHENGGONG,baseline,False,point break with board rental near Kenting,2026-10-16
-S4,CIJIN_BEACH,baseline;improved_no_qu,False,point break with board rental near Kenting,2026-10-16
-S4,DULAN,baseline;improved_no_qu,False,point break with board rental near Kenting,2026-10-16
-S4,DULI,baseline;improved_no_qu,False,point break with board rental near Kenting,2026-10-16
-S4,JIALESHUEI,baseline;improved;improved_no_cf;improved_no_qu;improved_no_syn;improved_oracle,True,point break with board rental near Kenting,2026-10-16
-S4,JINSHAN,improved_no_qu,False,point break with board rental near Kenting,2026-10-16
-S4,JINZUN_HARBOR,improved_no_qu,True,point break with board rental near Kenting,2026-10-16
-S4,JIQI,baseline;improved_no_qu,False,point break with board rental near Kenting,2026-10-16
-S4,JIUPENG,improved;improved_no_cf;improved_no_syn;improved_oracle,False,point break with board rental near Kenting,2026-10-16
-S4,NANWAN,improved;improved_no_cf;improved_no_syn;improved_oracle,False,point break with board rental near Kenting,2026-10-16
-S4,SHELIAO,baseline;improved;improved_no_cf;improved_no_syn;improved_oracle,False,point break with board rental near Kenting,2026-10-16
-S4,WAIAO_BEACH,baseline;improved_no_qu,True,point break with board rental near Kenting,2026-10-16
-S4,YIWAN,baseline;improved_no_qu,False,point break with board rental near Kenting,2026-10-16
-S4,ZHUNAN,baseline;improved_no_qu,False,point break with board rental near Kenting,2026-10-16
-S5,BAISHAWAN,baseline;improved;improved_no_cf;improved_no_qu;improved_no_syn;improved_oracle,False,glassy waves for a newbie tomorrow,2026-10-16
-S5,DOUBLE_BRIDGE,baseline,False,glassy waves for a newbie tomorrow,2026-10-16
-S5,DOUBLE_LIONS,improved;improved_no_syn,False,glassy waves for a newbie tomorrow,2026-10-16
-S5,DULAN,baseline;improved_no_cf;improved_no_qu;improved_oracle,False,glassy waves for a newbie tomorrow,2026-10-16
-S5,DULI,improved_no_cf;improved_no_qu;improved_oracle,False,glassy waves for a newbie tomorrow,2026-10-16
-S5,FULONG,improved;improved_no_qu,False,glassy waves for a newbie tomorrow,2026-10-16
-S5,GREEN_BAY,improved_no_cf;improved_no_qu;improved_oracle,False,glassy waves for a newbie tomorrow,2026-10-16
-S5,JIALESHUEI,baseline;improved_no_qu,True,glassy waves for a newbie tomorrow,2026-10-16
-S5,JINSHAN,baseline;improved_no_qu;improved_no_syn,False,glassy waves for a newbie tomorrow,2026-10-16
-S5,JINZUN_HARBOR,baseline,True,glassy waves for a newbie tomorrow,2026-10-16
-S5,JIQI,baseline;improved_no_cf;improved_no_qu;improved_oracle,False,glassy waves for a newbie tomorrow,2026-10-16
-S5,JIUPENG,baseline,False,glassy waves for a newbie tomorrow,2026-10-16
-S5,NANWAN,improved_no_cf;improved_no_qu,False,glassy waves for a newbie tomorrow,2026-10-16
-S5,SHANSHUI,improved_no_cf;improved_oracle,False,glassy waves for a newbie tomorrow,2026-10-16
-S5,SICAO_BRIDGE,improved;improved_no_syn,False,glassy waves for a newbie tomorrow,2026-10-16
-S5,SONGBAI,baseline;improved;improved_no_cf;improved_no_syn;improved_oracle,False,glassy waves for a newbie tomorrow,2026-10-16
-S5,WAIAO_BEACH,improved_no_syn,True,glassy waves for a newbie tomorrow,2026-10-16
-S5,WAIPU,improved;improved_no_syn;improved_oracle,False,glassy waves for a newbie tomorrow,2026-10-16
-S5,WUWEI,improved;improved_no_qu,False,glassy waves for a newbie tomorrow,2026-10-16
-S5,YUGUANGDAO,improved;improved_no_cf;improved_no_syn;improved_oracle,False,glassy waves for a newbie tomorrow,2026-10-16
-S5,ZHUAN,improved;improved_no_syn,False,glassy waves for a newbie tomorrow,2026-10-16
-S5,ZHUNAN,baseline;improved;improved_no_cf;improved_no_syn;improved_oracle,False,glassy waves for a newbie tomorrow,2026-10-16
+qid,spot_id,system,already_judged,query,snapshot_date,spot_name
+S1,BEIBIN,improved_no_qu,False,beginner-friendly beach break near Yilan this weekend,2026-10-17,Beibin
+S1,DAXI,baseline;improved;improved_no_cf;improved_no_syn;improved_oracle,False,beginner-friendly beach break near Yilan this weekend,2026-10-17,Daxi
+S1,DONGHE,improved_no_qu,False,beginner-friendly beach break near Yilan this weekend,2026-10-17,Donghe
+S1,DOUBLE_LIONS,baseline;improved;improved_no_cf;improved_no_syn;improved_oracle,False,beginner-friendly beach break near Yilan this weekend,2026-10-17,Double Lions
+S1,DULI,baseline,False,beginner-friendly beach break near Yilan this weekend,2026-10-17,Duli
+S1,ENVIRONMENTAL_PARK,improved_no_qu,False,beginner-friendly beach break near Yilan this weekend,2026-10-17,Environmental Park
+S1,FULONG,improved;improved_no_cf;improved_no_qu;improved_no_syn;improved_oracle,False,beginner-friendly beach break near Yilan this weekend,2026-10-17,Fulong
+S1,GENGFANG,baseline;improved;improved_no_cf;improved_no_syn;improved_oracle,False,beginner-friendly beach break near Yilan this weekend,2026-10-17,Gengfang
+S1,GONGS,improved_no_qu,False,beginner-friendly beach break near Yilan this weekend,2026-10-17,Gongs
+S1,JIALESHUEI,improved_no_qu,True,beginner-friendly beach break near Yilan this weekend,2026-10-17,Jialeshuei
+S1,JINZUN_HARBOR,improved_no_qu,True,beginner-friendly beach break near Yilan this weekend,2026-10-17,Jinzun Harbor
+S1,JIQI,improved_no_qu,False,beginner-friendly beach break near Yilan this weekend,2026-10-17,Jiqi
+S1,NSYSU_BEACH,baseline,False,beginner-friendly beach break near Yilan this weekend,2026-10-17,NSYSU Beach
+S1,SICAO_BRIDGE,baseline,False,beginner-friendly beach break near Yilan this weekend,2026-10-17,Sicao Bridge
+S1,WAIAO_BEACH,baseline;improved;improved_no_cf;improved_no_syn;improved_oracle,True,beginner-friendly beach break near Yilan this weekend,2026-10-17,Wai'ao Beach
+S1,WUWEI,baseline;improved;improved_no_cf;improved_no_qu;improved_no_syn;improved_oracle,False,beginner-friendly beach break near Yilan this weekend,2026-10-17,Wuwei Harbor
+S1,YIWAN,improved_no_qu,False,beginner-friendly beach break near Yilan this weekend,2026-10-17,Yiwan
+S1,YUGUANGDAO,baseline,False,beginner-friendly beach break near Yilan this weekend,2026-10-17,Yuguangdao
+S1,ZHUAN,baseline;improved;improved_no_cf;improved_no_syn;improved_oracle,False,beginner-friendly beach break near Yilan this weekend,2026-10-17,Zhu'an
+S2,BAXIAN_DONG,improved_no_cf;improved_oracle,False,uncrowded reef break on the east coast tomorrow morning,2026-10-17,Baxian Dong
+S2,BEIBIN,improved;improved_no_qu;improved_no_syn;improved_oracle,False,uncrowded reef break on the east coast tomorrow morning,2026-10-17,Beibin
+S2,CHENGGONG,baseline;improved_no_cf;improved_oracle,False,uncrowded reef break on the east coast tomorrow morning,2026-10-17,Chenggong
+S2,DAXI,improved_oracle,False,uncrowded reef break on the east coast tomorrow morning,2026-10-17,Daxi
+S2,DONGHE,baseline;improved;improved_no_cf;improved_no_qu;improved_no_syn;improved_oracle,False,uncrowded reef break on the east coast tomorrow morning,2026-10-17,Donghe
+S2,DOUBLE_BRIDGE,improved_no_cf;improved_oracle,False,uncrowded reef break on the east coast tomorrow morning,2026-10-17,Double Bridge
+S2,DOUBLE_LIONS,improved_oracle,False,uncrowded reef break on the east coast tomorrow morning,2026-10-17,Double Lions
+S2,DULAN,improved;improved_no_syn;improved_oracle,False,uncrowded reef break on the east coast tomorrow morning,2026-10-17,Dulan
+S2,DULI,improved;improved_no_cf;improved_no_syn;improved_oracle,False,uncrowded reef break on the east coast tomorrow morning,2026-10-17,Duli
+S2,ENVIRONMENTAL_PARK,baseline;improved;improved_no_cf;improved_no_qu;improved_no_syn;improved_oracle,False,uncrowded reef break on the east coast tomorrow morning,2026-10-17,Environmental Park
+S2,FULONG,improved_no_qu,False,uncrowded reef break on the east coast tomorrow morning,2026-10-17,Fulong
+S2,GONGS,baseline;improved;improved_no_cf;improved_no_qu;improved_no_syn,False,uncrowded reef break on the east coast tomorrow morning,2026-10-17,Gongs
+S2,JIALESHUEI,baseline;improved_no_qu,True,uncrowded reef break on the east coast tomorrow morning,2026-10-17,Jialeshuei
+S2,JINSHAN,baseline,False,uncrowded reef break on the east coast tomorrow morning,2026-10-17,Jinshan
+S2,JINZUN_HARBOR,improved;improved_no_cf;improved_no_qu;improved_no_syn,True,uncrowded reef break on the east coast tomorrow morning,2026-10-17,Jinzun Harbor
+S2,JIQI,improved;improved_no_cf;improved_no_qu;improved_no_syn,False,uncrowded reef break on the east coast tomorrow morning,2026-10-17,Jiqi
+S2,JIUPENG,baseline,False,uncrowded reef break on the east coast tomorrow morning,2026-10-17,Jiupeng
+S2,NSYSU_BEACH,baseline,False,uncrowded reef break on the east coast tomorrow morning,2026-10-17,NSYSU Beach
+S2,WUWEI,improved;improved_no_qu;improved_no_syn,False,uncrowded reef break on the east coast tomorrow morning,2026-10-17,Wuwei Harbor
+S2,YIWAN,improved;improved_no_qu;improved_no_syn,False,uncrowded reef break on the east coast tomorrow morning,2026-10-17,Yiwan
+S2,ZHUAN,baseline;improved_no_cf,False,uncrowded reef break on the east coast tomorrow morning,2026-10-17,Zhu'an
+S2,ZHUNAN,baseline,False,uncrowded reef break on the east coast tomorrow morning,2026-10-17,Zhunan
+S3,BEIBIN,improved;improved_no_qu;improved_no_syn,False,where are the best waves this weekend,2026-10-17,Beibin
+S3,DAXI,baseline;improved_no_cf,False,where are the best waves this weekend,2026-10-17,Daxi
+S3,DONGHE,improved;improved_no_qu;improved_no_syn,False,where are the best waves this weekend,2026-10-17,Donghe
+S3,DOUBLE_LIONS,improved_oracle,False,where are the best waves this weekend,2026-10-17,Double Lions
+S3,DULAN,improved;improved_no_syn;improved_oracle,False,where are the best waves this weekend,2026-10-17,Dulan
+S3,ENVIRONMENTAL_PARK,improved;improved_no_qu;improved_no_syn;improved_oracle,False,where are the best waves this weekend,2026-10-17,Environmental Park
+S3,FULONG,improved_no_qu,False,where are the best waves this weekend,2026-10-17,Fulong
+S3,GONGS,improved;improved_no_qu;improved_no_syn;improved_oracle,False,where are the best waves this weekend,2026-10-17,Gongs
+S3,JIALESHUEI,improved;improved_no_qu;improved_no_syn,True,where are the best waves this weekend,2026-10-17,Jialeshuei
+S3,JINSHAN,baseline;improved_no_cf,False,where are the best waves this weekend,2026-10-17,Jinshan
+S3,JINZUN_HARBOR,baseline;improved;improved_no_cf;improved_no_qu;improved_no_syn,True,where are the best waves this weekend,2026-10-17,Jinzun Harbor
+S3,JIQI,improved;improved_no_qu;improved_no_syn;improved_oracle,False,where are the best waves this weekend,2026-10-17,Jiqi
+S3,JIUPENG,improved_oracle,False,where are the best waves this weekend,2026-10-17,Jiupeng
+S3,NANWAN,improved_oracle,False,where are the best waves this weekend,2026-10-17,Nanwan
+S3,SICAO_BRIDGE,baseline;improved_no_cf,False,where are the best waves this weekend,2026-10-17,Sicao Bridge
+S3,SONGBAI,improved_oracle,False,where are the best waves this weekend,2026-10-17,Songbai Harbor
+S3,WAIAO_BEACH,baseline;improved_no_cf;improved_oracle,True,where are the best waves this weekend,2026-10-17,Wai'ao Beach
+S3,WAIPU,baseline;improved_no_cf,False,where are the best waves this weekend,2026-10-17,Waipu
+S3,WANLI,baseline;improved_no_cf,False,where are the best waves this weekend,2026-10-17,Wanli
+S3,WUWEI,improved;improved_no_qu;improved_no_syn,False,where are the best waves this weekend,2026-10-17,Wuwei Harbor
+S3,YIWAN,improved;improved_no_qu;improved_no_syn,False,where are the best waves this weekend,2026-10-17,Yiwan
+S3,YUGUANGDAO,baseline;improved_no_cf,False,where are the best waves this weekend,2026-10-17,Yuguangdao
+S3,ZHUAN,baseline;improved_no_cf;improved_oracle,False,where are the best waves this weekend,2026-10-17,Zhu'an
+S3,ZHUNAN,baseline;improved_no_cf,False,where are the best waves this weekend,2026-10-17,Zhunan
+S4,BEIBIN,improved_no_qu,False,point break with board rental near Kenting,2026-10-17,Beibin
+S4,CHENGGONG,baseline,False,point break with board rental near Kenting,2026-10-17,Chenggong
+S4,CIJIN_BEACH,baseline,False,point break with board rental near Kenting,2026-10-17,Cijin Beach
+S4,DONGHE,improved_no_qu,False,point break with board rental near Kenting,2026-10-17,Donghe
+S4,DULAN,baseline,False,point break with board rental near Kenting,2026-10-17,Dulan
+S4,DULI,baseline,False,point break with board rental near Kenting,2026-10-17,Duli
+S4,ENVIRONMENTAL_PARK,improved_no_qu,False,point break with board rental near Kenting,2026-10-17,Environmental Park
+S4,FULONG,improved_no_qu,False,point break with board rental near Kenting,2026-10-17,Fulong
+S4,GONGS,improved_no_qu,False,point break with board rental near Kenting,2026-10-17,Gongs
+S4,JIALESHUEI,baseline;improved;improved_no_cf;improved_no_qu;improved_no_syn;improved_oracle,True,point break with board rental near Kenting,2026-10-17,Jialeshuei
+S4,JINZUN_HARBOR,improved_no_qu,True,point break with board rental near Kenting,2026-10-17,Jinzun Harbor
+S4,JIQI,baseline;improved_no_qu,False,point break with board rental near Kenting,2026-10-17,Jiqi
+S4,JIUPENG,improved;improved_no_cf;improved_no_syn;improved_oracle,False,point break with board rental near Kenting,2026-10-17,Jiupeng
+S4,NANWAN,improved;improved_no_cf;improved_no_syn;improved_oracle,False,point break with board rental near Kenting,2026-10-17,Nanwan
+S4,SHELIAO,baseline;improved;improved_no_cf;improved_no_syn;improved_oracle,False,point break with board rental near Kenting,2026-10-17,Sheliao
+S4,WAIAO_BEACH,baseline,True,point break with board rental near Kenting,2026-10-17,Wai'ao Beach
+S4,WUWEI,improved_no_qu,False,point break with board rental near Kenting,2026-10-17,Wuwei Harbor
+S4,YIWAN,baseline;improved_no_qu,False,point break with board rental near Kenting,2026-10-17,Yiwan
+S4,ZHUNAN,baseline,False,point break with board rental near Kenting,2026-10-17,Zhunan
+S5,BAISHAWAN,baseline;improved;improved_no_cf;improved_no_syn;improved_oracle,False,glassy waves for a newbie tomorrow,2026-10-17,Baishawan
+S5,BAXIAN_DONG,improved_oracle,False,glassy waves for a newbie tomorrow,2026-10-17,Baxian Dong
+S5,BEIBIN,improved_no_qu;improved_oracle,False,glassy waves for a newbie tomorrow,2026-10-17,Beibin
+S5,CHENGGONG,improved_oracle,False,glassy waves for a newbie tomorrow,2026-10-17,Chenggong
+S5,CIJIN_BEACH,improved;improved_no_syn;improved_oracle,False,glassy waves for a newbie tomorrow,2026-10-17,Cijin Beach
+S5,DAXI,improved_oracle,False,glassy waves for a newbie tomorrow,2026-10-17,Daxi
+S5,DONGHE,improved_no_qu;improved_oracle,False,glassy waves for a newbie tomorrow,2026-10-17,Donghe
+S5,DOUBLE_BRIDGE,baseline;improved_oracle,False,glassy waves for a newbie tomorrow,2026-10-17,Double Bridge
+S5,DOUBLE_LIONS,improved;improved_no_syn;improved_oracle,False,glassy waves for a newbie tomorrow,2026-10-17,Double Lions
+S5,DULAN,baseline;improved_no_cf;improved_oracle,False,glassy waves for a newbie tomorrow,2026-10-17,Dulan
+S5,DULI,improved_no_cf,False,glassy waves for a newbie tomorrow,2026-10-17,Duli
+S5,ENVIRONMENTAL_PARK,improved_no_qu,False,glassy waves for a newbie tomorrow,2026-10-17,Environmental Park
+S5,FULONG,improved_no_qu,False,glassy waves for a newbie tomorrow,2026-10-17,Fulong
+S5,GONGS,improved_no_qu,False,glassy waves for a newbie tomorrow,2026-10-17,Gongs
+S5,GREEN_BAY,improved_no_cf,False,glassy waves for a newbie tomorrow,2026-10-17,Green Bay
+S5,JIALESHUEI,baseline;improved_no_qu,True,glassy waves for a newbie tomorrow,2026-10-17,Jialeshuei
+S5,JINSHAN,baseline;improved;improved_no_syn,False,glassy waves for a newbie tomorrow,2026-10-17,Jinshan
+S5,JINZUN_HARBOR,baseline;improved_no_qu,True,glassy waves for a newbie tomorrow,2026-10-17,Jinzun Harbor
+S5,JIQI,baseline;improved_no_cf;improved_no_qu,False,glassy waves for a newbie tomorrow,2026-10-17,Jiqi
+S5,JIUPENG,baseline,False,glassy waves for a newbie tomorrow,2026-10-17,Jiupeng
+S5,NANWAN,improved_no_cf,False,glassy waves for a newbie tomorrow,2026-10-17,Nanwan
+S5,SHANSHUI,improved;improved_no_cf;improved_no_syn,False,glassy waves for a newbie tomorrow,2026-10-17,Shanshui
+S5,SICAO_BRIDGE,improved;improved_no_syn,False,glassy waves for a newbie tomorrow,2026-10-17,Sicao Bridge
+S5,SONGBAI,baseline;improved_no_cf,False,glassy waves for a newbie tomorrow,2026-10-17,Songbai Harbor
+S5,WAIAO_BEACH,improved;improved_no_syn,True,glassy waves for a newbie tomorrow,2026-10-17,Wai'ao Beach
+S5,WAIPU,improved;improved_no_syn,False,glassy waves for a newbie tomorrow,2026-10-17,Waipu
+S5,WUWEI,improved_no_qu,False,glassy waves for a newbie tomorrow,2026-10-17,Wuwei Harbor
+S5,YIWAN,improved_no_qu,False,glassy waves for a newbie tomorrow,2026-10-17,Yiwan
+S5,YUGUANGDAO,improved;improved_no_cf;improved_no_syn,False,glassy waves for a newbie tomorrow,2026-10-17,Yuguangdao
+S5,ZHUAN,improved;improved_no_syn,False,glassy waves for a newbie tomorrow,2026-10-17,Zhu'an
+S5,ZHUNAN,baseline;improved_no_cf,False,glassy waves for a newbie tomorrow,2026-10-17,Zhunan
